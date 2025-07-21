@@ -1,0 +1,26 @@
+# Arquivos de compilação Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Pasta de output do compilador
+out/
+bin/
+target/
+
+# Arquivos de log
+*.log
+
+# Arquivos do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Arquivos do Eclipse
+.project
+.classpath
+.settings/
+
+# Arquivos do VS Code
+.vscode/
