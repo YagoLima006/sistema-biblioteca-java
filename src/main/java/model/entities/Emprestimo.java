@@ -19,7 +19,6 @@ public class Emprestimo
         this.ativo = true;
     }
 
-    // --- Getters para acessar os dados do empréstimo ---
     public Livro getLivro() {
         return livro;
     }
@@ -42,7 +41,6 @@ public class Emprestimo
 
     public void encerrarEmprestimo() {
         this.ativo = false;
-        // Também devemos atualizar o estado do livro associado
         this.livro.devolver();
     }
 
