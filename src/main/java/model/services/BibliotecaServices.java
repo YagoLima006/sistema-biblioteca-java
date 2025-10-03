@@ -133,7 +133,7 @@ public class BibliotecaServices
 
     public void emprestarLivro(String tituloLivro, int codigoUsuario)
     {
-        Optional<Usuario> usuarioOpt = buscarUsuarioPorCodigo(codigoUsuario); // Você precisará criar este método
+        Optional<Usuario> usuarioOpt = buscarUsuarioPorCodigo(codigoUsuario); 
         Optional<Livro> livroOpt = buscarLivroPorTitulo(tituloLivro);
 
         if (usuarioOpt.isEmpty())
